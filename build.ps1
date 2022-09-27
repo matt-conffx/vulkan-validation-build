@@ -16,7 +16,6 @@ try {
 
 	Write-Host -ForegroundColor Green "CMake - Building..."
 	cmake.exe --build . --config Debug --target VkLayer_khronos_validation
-	# cmake.exe --build . --target help
 }
 finally {
 	Pop-Location
